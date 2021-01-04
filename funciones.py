@@ -70,6 +70,9 @@ print(sumaTodos(3, lambda x: x**3))
 
 #esta función anónima me ahorra tener que definir una función 'cubo'
 
+#en general, una anónima tiene sentido cuando:
+#(i) es código no reutilizable y (ii) es suficientemente explicativo en sí mismo
+#como para no tener que darle un nombre
 
     
     
