@@ -22,11 +22,19 @@ print(countDown(10))
 #Nota: un bucle WHILE infinito 'no congela' el ordenador,
 #mientras que una funcion recursiva infinita sí
 
-def sumatorio(n): #DA ERROR, ARREGLAR!
+def sumatorio(n): 
     if n > 0:
-        suma = n + sumatorio(n-1)
-    return suma
+        return n + sumatorio(n-1)
+    else:
+        return 0
+  
+
+print(sumatorio(4))
+
+def factorial(n):
+    if n > 0:
+        return n*factorial(n-1)
+    else:
+        return 1
 
 
-#print(sumatorio(10))
-        
