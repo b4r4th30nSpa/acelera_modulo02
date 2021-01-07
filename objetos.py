@@ -1,6 +1,6 @@
 class Perro: #el nombre de una clase siempre ha de comenzar con mayúsculas
 
-    def __init__(self, nombre, edad, peso): #función constructora de la instancia (objeto con atributos)
+    def __init__(self, nombre, edad, peso): #función constructora de la instancia (inicializa el estado del objeto, o sea, sus atributos)
         self.nombre = nombre
         self.edad = edad
         self.peso = peso
@@ -52,7 +52,7 @@ lassie = PerroAsistencia('Lassie', 5, 10, 'Joe')
 
 
 
-#------creación de objeto sin atributos
+#------creación de objeto sin atributos por defecto
 
 class Dog():
     def __init__(self):
